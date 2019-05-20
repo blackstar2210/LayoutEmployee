@@ -1,0 +1,129 @@
+﻿#header {
+    height: 52px;
+    right: auto;
+    left: 0px;
+    top: 0px;
+    margin: 0px;
+    width: 100%;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+#menu {
+    width: 140px;
+    left: 0;
+    top: 0;
+    height: 885px;
+    background-color: #026b97 !important;
+    border: 1px solid black;
+}
+
+#content {
+    right: auto;
+    left: 140px;
+    top: 0px;
+    margin: 0px;
+    width: 91%;
+    height: 885px;
+    position: absolute;
+    font-weight: 300;
+    top: 52px;
+    padding-right: 10px;
+}
+
+#main-content {
+    padding: 8px;
+    right: auto;
+    left: 0px;
+    top: 0px;
+    margin: 0px;
+    border: 1px solid black;
+    height: 885px;
+    width: 100%;
+    background-color: #e5e6eb;
+}
+
+#content-top {
+    border-width: 1px 1px 0px;
+    height: 36px;
+    margin: 0px;
+    width: 100%;
+    right: auto;
+    left: 0px;
+    top: 0px;
+    background-color: #026b97;
+    display: flex;
+}
+
+#content-mid {
+    margin: 0px;
+    width: 100%;
+    right: auto;
+    left: 0px;
+    top: 36px;
+    height: 572px;
+    border: 1px solid black;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 7px 10px 6px;
+}
+
+#content-bottom {
+    margin: 0px;
+    height: 250px;
+    width: 100%;
+    right: auto;
+    left: 0px;
+    top: 618px;
+}
+
+.toolbar-item {
+    color: #fff;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+}
+
+    .toolbar-item:hover {
+        cursor: pointer;
+        background-color: #0088c2;
+    }
+
+.toolbar-icon {
+    background: url(../../Contents/Icons/common-icon.png);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+    line-height:16px;
+    padding-bottom: 3px;
+}
+
+.toolbar-item-add {
+    background-position: -1px -127px;
+}
+
+.toolbar-item-duplicate {
+    background-position: -976px -127px;
+}
+
+.toolbar-item-edit {
+    background-position: -77px -203px;
+}
+
+.toolbar-item-delete {
+    background-position: -1076px -127px;
+}
+
+.toolbar-item-load {
+    background-position: -876px -127px;
+}
+
+.text {
+    padding: 0 5px;
+}
+

@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Quản lý nhân viên</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/Common/main.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/Views/employee.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/Library/bootstrap.min.css">
+</head>
+<body>
+    <div id="header">
+        Header
+    </div>
+
+    <div id="menu">
+        Menu
+    </div>
+
+    <div id="content">
+        <div id="main-content">
+            <div id="content-top">
+                <div class="toolbar-item">
+                    <div class="toolbar-icon toolbar-item-add"></div><div class="text">Thêm mới</div>
+                </div>
+                <div class="toolbar-item">
+                    <div class="toolbar-icon toolbar-item-duplicate"></div><div class="text">Nhân bản</div>
+                </div>
+                <div class="toolbar-item">
+                    <div class="toolbar-icon toolbar-item-edit"></div><div class="text">Sửa</div>
+                </div>
+                <div class="toolbar-item">
+                    <div class="toolbar-icon toolbar-item-delete"></div><div class="text">Xóa</div>
+                </div>
+                <div class="toolbar-item">
+                    <div class="toolbar-icon toolbar-item-load"></div><div class="text" v>Nạp</div>
+                </div>
+
+            </div>
+
+            <div id="content-mid">
+                <table class="tblEmployee" style="width: 100%">
+                    <thead>
+                        <tr>
+                            <th>Mã nhân viên</th>
+                            <th>Tên nhân viên</th>
+                            <th>Giới tính</th>
+                            <th>Ngày sinh</th>
+                            <th>Số điện thoại</th>
+                            <th>Trạng thái làm việc</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+
+            <div id="content-bottom">
+
+            </div>
+        </div>
+    </div>
+
+    <script src="../Scripts/Library/bootstrap.min.js"></script>
+    <script src="../Scripts/Library/jquery-3.4.1.min.js"></script>
+    <script src="../Scripts/View/employee.js"></script>
+
+</body>
+</html>
